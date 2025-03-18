@@ -7,13 +7,25 @@
 </head>
 <body>
 	<fieldset>
-	<legend> numero maior</legend>
+	<legend> comida</legend>
 	<form method="post" action="calcular.php">
-	digite 1 numero:
+	escolha o numero do lanche:
+    1
+    2
+    3
+    4
+    5
+    quantos lanches vose quer?
 	<input type= "text" textnumber="n1" /> <br/>
 	<br/>
     <form method="post" action="calcular.php">
-	digite 2 numero:
+	escolha a bebida
+    1
+    2
+    3
+    4
+    5
+    quantas bebidas vose quer?
 	<input type= "text" textnumber="n2" /> <br/>
 	<br/>
 	</form>
