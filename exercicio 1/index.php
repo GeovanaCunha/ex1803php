@@ -1,34 +1,41 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-	<fieldset>
-	<legend> comida</legend>
-	<form method="post" action="calcular.php">
-	escolha o numero do lanche:
-    1
-    2
-    3
-    4
-    5
-    quantos lanches vose quer?
-	<input type= "text" textnumber="n1" /> <br/>
-	<br/>
-    <form method="post" action="calcular.php">
-	escolha a bebida
-    1
-    2
-    3
-    4
-    5
-    quantas bebidas vose quer?
-	<input type= "text" textnumber="n2" /> <br/>
-	<br/>
-	</form>
-	</fieldset>
+<h1>Menu</h1>
+
+<form method = "post" action="calcular.php">
+
+
+    <h1>Insira seu nome<input type="text" name="nome" min="0" max="99"></h1>
+
+    <br></br>
+
+    <h1> Lanche: </h1>
+
+    <h2>X Burger(6,00) <input type="number" name="xbu" min="0" max="99"></h2>
+    <h2>X Salada(8,00) <input type="number" name="xsa" min="0" max="99"></h2>
+    <h2>X Bacon(10,00) <input type="number" name="xba" min="0" max="99"></h2>
+    <h2>X Tudo(12,00)  <input type="number" name="xtu" min="0" max="99"></h2>
+    <h2>X Duplo(15,00) <input type="number" name="xdu" min="0" max="99"></h2>
+
+    <br></br>
+
+    <h1> Bebida: </h1>
+
+    <h2>Água (R$2,00) <input type="number" name="agu" min="0" max="99"></h2>
+    <h2>Suco (R$5,00) <input type="number" name="suc" min="0" max="99"></h2>
+    <h2>Lata (R$3,00) <input type="number" name="lat" min="0" max="99"></h2>
+    <h2>Refri 600 ml (R$5,00)  <input type="number" name="sei" min="0" max="99"></h2>
+    <h2>Refri 2 Litros (R$8,00) <input type="number" name="lit" min="0" max="99"></h2>
+
+    <input type="submit">
+</form>
+    
 </body>
 </html>
