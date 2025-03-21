@@ -63,23 +63,23 @@
 
 
         if ($agu > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $agu garrafas d'água</p>";
+            echo "<p style='color: rgb(194, 138, 78); font-family: Comic Sans MS; font-size: 20px;'>você comprou $agu garrafas d'água</p>";
         }else{}
 
         if ($suc > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $suc sucos</p>";
+            echo "<p style='color: rgb(253, 112, 195); font-family: Comic Sans MS; font-size: 20px;'>você comprou $suc sucos</p>";
         }else{}
 
         if ($lat > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lat Latas de Refrigerante</p>";
+            echo "<p style='color: rgb(250, 181, 108); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lat Latas de Refrigerante</p>";
         }else{}
 
         if ($sei > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $sei garrafas de refrigerante de 600ml</p>";
+            echo "<p style='color: rgb(255, 87, 191); font-family: Comic Sans MS; font-size: 20px;'>você comprou $sei garrafas de refrigerante de 600ml</p>";
         }else{}
 
         if ($lit > 0){
-            echo "<p style='color: rgb(250, 238, 225); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lit garrafas de refrigerante de 2 litros</p>";
+            echo "<p style='color: rgb(255, 161, 61); font-family: Comic Sans MS; font-size: 20px;'>você comprou $lit garrafas de refrigerante de 2 litros</p>";
         }else{}
 
 ?>
