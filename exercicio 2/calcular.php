@@ -41,45 +41,45 @@
         echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>Olá $Nome, o total a pagar é de R$$tot</p>";
 
         if ($cur > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $cur poções de cura</p>"; 
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $cur porco</p>"; 
         }else{}
 
         if ($man > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $man poções de mana</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $man cachorro</p>";
         }else{}
 
         if ($sor > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $sor poções de sorte</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $sor gato</p>";
         }else{}
 
         if ($fog > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $fog poções de resistência ao fogo</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $fog hamster</p>";
         }else{}
 
         if ($fri > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $fri poções de resistência ao frio</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $fri coelho</p>";
         }else{}
 
 
 
         if ($pdf > 0){
-            echo "<p style='color: rgb(212, 199, 243);; font-family: Comic Sans MS; font-size: 20px;'>você comprou $pdf pó de fada</p>";
+            echo "<p style='color: rgb(212, 199, 243);; font-family: Comic Sans MS; font-size: 20px;'>você comprou $pdf bolo de cachorro</p>";
         }else{}
 
         if ($cra > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $cra cristais arcanos</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $cra petisco de gato</p>";
         }else{}
 
         if ($ole > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $ole óleos elementais </p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $ole 500g alfafa </p>";
         }else{}
 
         if ($mad > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $mad mandrágoras</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $mad comida de hamster</p>";
         }else{}
 
         if ($edd > 0){
-            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $edd escamas de dragão</p>";
+            echo "<p style='color: rgb(212, 199, 243); font-family: Comic Sans MS; font-size: 20px;'>você comprou $edd lama</p>";
         }else{}
 
 ?>
